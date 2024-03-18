@@ -30,13 +30,23 @@ function App() {
       frogs.pop();
       setFrogs(frogs);
     }
+    if (randomNumber === 4) {
+      setGroguPosition(groguPosition + 1); 
+    }
+  };
+
+  const restartGame = () => {
+    setCookies(['🍪', '🍪', '🍪']);
+    setEggs(['🥚', '🥚', '🥚']);
+    setFrogs(['🐸', '🐸', '🐸']);
+    setGroguPosition(0);
   };
 
   return (
     <>
       <Header title="Cuidado con Grogu" />
       <main className="page">
-        <Board />
+        <Board groguPosition = {groguPosition} />
 
         <section>
           <Dice onClick={rollDice} />
@@ -53,7 +63,8 @@ function App() {
           <div className="goods-item">{frogs}</div>
         </section>
         <section>
-          <button className="restart-button">Reiniciar Juego</button>
+          <button className="restart-button"
+          onClick={restartGame}>Reiniciar Juego</button>
         </section>
       </main>
     </>

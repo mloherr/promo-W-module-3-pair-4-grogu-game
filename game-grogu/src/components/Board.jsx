@@ -1,19 +1,14 @@
-import Grogu from "./Grogu"
 
-function Board () {
- 
-    return (
-          <section className="board">
-            <div className="cell"><Grogu /></div>
-            <div className="cell"></div>
-            <div className="cell"></div>
-            <div className="cell"></div>
-            <div className="cell"></div>
-            <div className="cell"></div>
-            <div className="cell"></div>
-            </section>
-    )
-  }
-  
-  export default Board
-  
+import Grogu from './Grogu.jsx';
+
+function Board({ groguPosition }) {
+  const cells = Array.from({ length: 7 }).map((_, index) => (
+    <div className="cell" key={index}>
+      {index === groguPosition ? <Grogu /> : null}
+    </div>
+  ));
+
+  return <section className="board">{cells}</section>;
+}
+
+export default Board;
