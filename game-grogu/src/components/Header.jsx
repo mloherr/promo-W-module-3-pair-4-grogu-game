@@ -1,13 +1,11 @@
-
-function Header() {
-    return (
-      <>
+function Header({ title }) {
+  return (
+    <>
       <header>
-        <h1>¡Cuidado con Grogu!</h1>
+        <h1>{title}</h1>
       </header>
-        </>
-    )
-  }
-  
-  export default Header
-  
+    </>
+  );
+}
+
+export default Header;

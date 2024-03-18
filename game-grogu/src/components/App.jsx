@@ -1,6 +1,7 @@
-import '../scss/App.scss'
+import '../scss/App.scss';
 import Header from './Header.jsx';
 import Board from './Board.jsx';
+import Dice from './Dice.jsx';
 import { useState } from 'react';
 
 function App() {
@@ -11,54 +12,52 @@ function App() {
   const [resultDice, setResultDice] = useState(null);
   const [stateGame, setStateGame] = useState('');
 
-  const handleClickDice = () => {
+  const rollDice = () => {
     const randomNumber = Math.floor(Math.random() * 4) + 1;
     setResultDice(randomNumber);
+    console.log(resultDice);
 
-    if (setResultDice === 4){
-xxxxxx
-    } else {
-yyyyy
+    if (randomNumber === 1) {
+      cookies.pop();
+      setCookies(cookies);
+    }
+    if (randomNumber === 2) {
+      eggs.pop();
+      setEggs(eggs);
     }
 
-
-  }
-
-  const groguPosition () grogusetResultDice === 4 : X ? Y
+    if (randomNumber === 3) {
+      frogs.pop();
+      setFrogs(frogs);
+    }
+  };
 
   return (
     <>
-    <Header />
-    <main className="page">
-    <Board />
+      <Header title="Cuidado con Grogu" />
+      <main className="page">
+        <Board />
 
         <section>
-          <button className="dice" onClick={handleClickDice}>Lanzar Dado</button>
-          <p>{resultDice}</p>
+          <Dice onClick={rollDice} />
           <div className="game-status">En curso</div>
         </section>
 
         <section className="goods-container">
-          <div className="goods-item">🍪</div>
-          <div className="goods-item">🍪</div>
-          <div className="goods-item">🍪</div>
+          <div className="goods-item">{cookies}</div>
         </section>
         <section className="goods-container">
-          <div className="goods-item">🥚</div>
-          <div className="goods-item">🥚</div>
-          <div className="goods-item">🥚</div>
+          <div className="goods-item">{eggs}</div>
         </section>
         <section className="goods-container">
-          <div className="goods-item">🐸</div>
-          <div className="goods-item">🐸</div>
-          <div className="goods-item">🐸</div>
+          <div className="goods-item">{frogs}</div>
         </section>
         <section>
           <button className="restart-button">Reiniciar Juego</button>
         </section>
       </main>
-      </>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
