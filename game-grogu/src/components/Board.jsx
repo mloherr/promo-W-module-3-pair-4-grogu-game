@@ -1,4 +1,3 @@
-
 import Grogu from './Grogu.jsx';
 
 function Board({ groguPosition }) {
