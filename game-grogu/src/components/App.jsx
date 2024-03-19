@@ -30,8 +30,8 @@ function App() {
       frogs.pop();
       setFrogs(frogs);
     }
-    if (randomNumber === 4) {
-      setGroguPosition(groguPosition + 1); 
+    if (randomNumber === 4){
+      setGroguPosition(groguPosition + 1)
     }
   };
 
@@ -46,7 +46,7 @@ function App() {
     <>
       <Header title="Cuidado con Grogu" />
       <main className="page">
-        <Board groguPosition = {groguPosition} />
+        <Board groguPosition = {groguPosition}/>
 
         <section>
           <Dice onClick={rollDice} />
