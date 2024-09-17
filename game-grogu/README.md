@@ -1,24 +1,20 @@
-# React + Vite
+# 🐸 La aventura contra Grogu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Compite contra Grogu mientras recorre su camino a través de una galaxia de snacks. Tu misión es recoger todos los snacks antes de que Grogu llegue al final del camino. ¿Podrás ser más astuto que Grogu y completar tu colección?
 
-Currently, two official plugins are available:
+## 📚 Cómo jugar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Introduce tu nombre para personalizar tu aventura.
+Tira el dado para determinar el próximo movimiento de Grogu:
+Si sacas un 1, salvas una galleta.
+Si sacas un 2, salvas un huevo.
+Si sacas un 3, salvas una rana.
+Si sacas un 4, Grogu avanza un paso.
 
-<!-- ======================================================================================== -->
+Tu objetivo es recoger todos los snacks antes de que Grogu llegue al final del camino.
+Si Grogu llega al final, gana y se come todos los aperitivos.😭
+Si recoges todos los aperitivos primero, ¡ganas! 😊
 
-PASOS A REALIZAR:
+## Reiniciar el juego
 
-1- Incializar la pagina con el numero aleatorio en 0. - Mercancias en 0. - Grogu en 0.
-2- Crear un input para inicializar el juego con el nombre del usuario.
-3- Al hacer click en 'Lanzar dado' se genere un número aleatorio entre 1-4. - Si el numero es igual a 1 Grogu avanza. - Si el numero es igual a 2 Come una galleta. - Si el numero es igual a 3 Come un huevo.
--Si el numero es igual a 4 Come una rana.
-4 - Si no quedan elementos en el array = HEMOS GANADO!
--Si el grogu ha llegado a la ultima casilla = HEMOS PERDIDO.
-
-5- REINICIAR EL JUEGO:
--Al hacer click en el boton se reinicia y vuelve a empezar de 0
-
-<!-- ======================================================================================== -->
+Si necesitas empezar de nuevo, simplemente haz clic en el botón «Reiniciar Juego» para reiniciar todos los estados y empezar de nuevo.
