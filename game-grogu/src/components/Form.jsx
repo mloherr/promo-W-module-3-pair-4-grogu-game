@@ -5,7 +5,9 @@ function Form({ nameUser, nameInputUser }) {
 
 	return (
 		<form className="form">
-			<label htmlFor="name">Escribe tu nombre</label>
+			<label className="namePlayer" htmlFor="name">
+				Introduce tu nombre para jugar
+			</label>
 			<input type="text" id="name" value={nameUser} onChange={handleNameUser} />
 		</form>
 	);
