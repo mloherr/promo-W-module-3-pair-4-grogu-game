@@ -1,20 +1,22 @@
 # 🐸 La aventura contra Grogu
 
-Compite contra Grogu mientras recorre su camino a través de una galaxia de snacks. Tu misión es recoger todos los snacks antes de que Grogu llegue al final del camino. ¿Podrás ser más astuto que Grogu y completar tu colección?
+Desafía a Grogu en una carrera intergaláctica por snacks. Tu misión es recolectar todos los bocadillos antes de que Grogu complete su recorrido. ¿Serás capaz de adelantarte y conseguirlos todos antes que él?
 
 ## 📚 Cómo jugar
 
-Introduce tu nombre para personalizar tu aventura.
-Tira el dado para determinar el próximo movimiento de Grogu:
-Si sacas un 1, salvas una galleta.
-Si sacas un 2, salvas un huevo.
-Si sacas un 3, salvas una rana.
-Si sacas un 4, Grogu avanza un paso.
+1. Ingresa tu nombre para personalizar la experiencia.
 
-Tu objetivo es recoger todos los snacks antes de que Grogu llegue al final del camino.
-Si Grogu llega al final, gana y se come todos los aperitivos.😭
-Si recoges todos los aperitivos primero, ¡ganas! 😊
+2. Lanza el dado para determinar el movimiento de Grogu:
+
+- Con un 1, rescatas una galleta.
+- Con un 2, salvas un huevo.
+- Con un 3, atrapas una rana.
+- Con un 4, Grogu avanza un espacio.
+
+Tu meta es recoger todos los bocadillos antes de que Grogu alcance el final del trayecto.
+Si Grogu llega primero, ¡se quedará con todos los snacks! 😭
+Si logras recolectarlos antes que él, ¡serás el ganador! 😊
 
 ## Reiniciar el juego
 
-Si necesitas empezar de nuevo, simplemente haz clic en el botón «Reiniciar Juego» para reiniciar todos los estados y empezar de nuevo.
+¿Necesitas un nuevo intento? Haz clic en el botón "Reiniciar Juego" para comenzar desde cero y reiniciar todos los avances.
