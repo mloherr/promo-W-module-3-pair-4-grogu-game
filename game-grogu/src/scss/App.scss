@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .footer__menu-item{
@@ -49,16 +50,22 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    &__write{
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 800px;
-    padding: 5px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+        &__write{
+        background-color: rgba(255, 255, 255, 0.6);
+        width: 800px;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-p{
+        margin: 0;
     }
+    }
+};
+
+h3,h2{
+    text-shadow: 1px 1px 2px #000;
 }
 
 .page {

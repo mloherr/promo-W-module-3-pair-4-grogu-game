@@ -58,9 +58,9 @@ function App() {
 
 	useEffect(() => {
 		if (eggs.length === 0 && cookies.length === 0 && frogs.length === 0) {
-			setStateGame("Ganaste, Mando completa la misión");
+			setStateGame("¡Ganaste, has completado la misión! 🚀");
 		} else if (groguPosition === 6) {
-			setStateGame("¡¡Grogu se ha comido el cargamento!! Has perdido");
+			setStateGame("¡¡Grogu se ha comido el cargamento!! Has perdido 😭");
 		} else {
 			setStateGame("En curso");
 		}
