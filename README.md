@@ -17,6 +17,26 @@ Tu meta es recoger todos los bocadillos antes de que Grogu alcance el final del 
 Si Grogu llega primero, ¡se quedará con todos los snacks! 😭
 Si logras recolectarlos antes que él, ¡serás el ganador! 😊
 
-## Reiniciar el juego
+## 🔄 Reiniciar el juego
 
 ¿Necesitas un nuevo intento? Haz clic en el botón "Reiniciar Juego" para comenzar desde cero y reiniciar todos los avances.
+
+## Instalación
+Clona el repositorio e instala las dependencias:
+
+```bash
+git clone https://github.com/mloherr/promo-W-module-3-pair-4-grogu-game.git
+``` 
+
+```bash
+npm install
+```
+
+Ejecuta el juego
+Inicia el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+¡Abre tu navegador en tu localhost y disfruta del juego!
