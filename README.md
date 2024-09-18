@@ -21,7 +21,7 @@ Si logras recolectarlos antes que él, ¡serás el ganador! 😊
 
 ¿Necesitas un nuevo intento? Haz clic en el botón "Reiniciar Juego" para comenzar desde cero y reiniciar todos los avances.
 
-## Instalación
+## 🛠️ Instalación
 Clona el repositorio e instala las dependencias:
 
 ```bash
